@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "honk"
+version = "0.1.0"
+description = "Download all live goose from bandcamp. Honk!"
+authors = ["Jared Culp <jared@culp.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.28.1"
+enlighten = "^1.11.1"
+bandcamp-downloader = "^0.0.13"
+beautifulsoup4 = "^4.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
